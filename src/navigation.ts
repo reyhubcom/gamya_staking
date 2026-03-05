@@ -27,7 +27,7 @@ export const headerData = {
       text: 'Products',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Bridge Coins',
           href: getPermalink('/#features'),
         },
         {
