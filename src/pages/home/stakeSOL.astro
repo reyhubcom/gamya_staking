@@ -30,7 +30,7 @@ const metadata = {
         },
         {
           variant: 'primary',
-          text: 'Stake BTC',
+          text: 'Stake SOL',
           href: '/home/exchange',
         },
       ]}
@@ -43,7 +43,7 @@ const metadata = {
   <Hero2
     tagline=""
     actions={[
-      { variant: 'primary', target: '', text: 'Stake BTC', href: '/home/exchange' },
+      { variant: 'primary', target: '', text: 'Stake SOL', href: '/home/stakeSOL' },
       { text: 'EXCHANGE', href: '/home/exchange' },
     ]}
     image={{
@@ -64,9 +64,9 @@ const metadata = {
   "largeChartUrl": "",
   "isTransparent": true,
   "showFloatingTooltip": false,
-  "plotLineColorGrowing": "rgba(34, 171, 148, 1)",
-  "plotLineColorFalling": "rgba(247, 82, 95, 1)",
-  "gridLineColor": "rgba(255, 255, 255, 0)",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(240, 243, 250, 0)",
   "scaleFontColor": "#DBDBDB",
   "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
   "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
@@ -75,12 +75,12 @@ const metadata = {
   "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
   "tabs": [
     {
-      "title": "Bitcoin Price",
+      "title": "Solana Staking",
       "symbols": [
         {
-          "s": "COINBASE:BTCUSD",
+          "s": "COINBASE:SOLUSD",
           "d": "",
-          "base-currency-logoid": "crypto/XTVCBTC",
+          "base-currency-logoid": "crypto/XTVCSOL",
           "currency-logoid": "country/US"
         }
       ],
@@ -97,7 +97,7 @@ const metadata = {
   </script>
 </div>
 <!-- TradingView Widget END -->
-      What is <br /> Bitcoin <span class="text-accent dark:text-white">Staking</span>?<br
+      What is <br /> Solana <span class="text-accent dark:text-white">Staking</span>?<br
       />
     </Fragment>
 
@@ -114,8 +114,8 @@ Since Bitcoin operates on a PoW mechanism rather than PoS, innovative mechanisms
 
   <Features
     id="features"
-    title="BTC staking series:"
-    subtitle="Deep dive on BTC staking protocols."
+    title="Solana staking series:"
+    subtitle="Deep dive on SOL staking protocols."
     columns={2}
     items={[
       {
