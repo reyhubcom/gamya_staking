@@ -60,8 +60,8 @@ export const headerData = {
       text: 'Protocols',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'DeFi',
+          href: getPermalink('/protocol/defi'),
         },
         {
           text: 'Long-form Sales',
