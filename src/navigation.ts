@@ -90,7 +90,7 @@ export const headerData = {
       links: [
         {
           text: 'Ethereum',
-          href: getBlogPermalink(),
+         href: getPermalink('/ethereum/reward'),
         },
         {
           text: 'Binance',
