@@ -1,0 +1,124 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Services',
+};
+---
+
+<Layout metadata={metadata}>
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=69a47af3200264b38d859e1e&product=sop' async='async'></script>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+    title="Decentralized Finance"
+    subtitle="is a blockchain-based financial system that removes intermediaries (banks/brokers) to allow peer-to-peer lending, borrowing, and trading using smart contracts. Operating 24/7 on public ledgers, it provides global, transparent, and non-custodial."
+    actions={[{ variant: 'primary', target: '', text: 'OPEN APP', href: '/home/exchange' }]}
+    image={{
+            src: 'https://cdn.prod.website-files.com/64c568d103c4e2da8755c388/6527f31f8e40b88014761089_64df6df421e1810f2c6433df_634e60de9ac9035f265413db_get-to-know-bitwave-defi.webp',
+
+      alt: 'AstroWind Hero Image',
+    }}
+  />
+
+  
+
+  
+
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Top Decentralized Finance [ DeFi ]"
+    testimonials={[
+      {
+        testimonial: `Aave is a Decentralized Finance (DeFi) protocol that allows users to lend and borrow digital assets in a trustless manner. By depositing assets into liquidity pools, users can earn rewards, which are determined automatically by the Aave protocol based on supply and demand. Aave supports a wide range of cryptocurrencies, including several popular stablecoins like USDT, USDC, and DAI, making it a go-to platform for those interested in earning rewards.`,
+        name: 'AAVE',
+        job: 'Supported EVMs Ethereum, Base, Arbitrum.',
+        image: {
+          src: 'https://s2.coinmarketcap.com/static/img/coins/200x200/7278.png',
+          alt: 'Emily Kennedy Image',
+        },
+      },
+      {
+        testimonial: `Morpho enhances decentralized finance by optimizing lending and borrowing on existing platforms like Compound and Aave, offering better rates for both lenders and borrowers. It achieves this through a peer-to-peer layer that matches lenders and borrowers directly, thus improving efficiency and interest rates.`,
+        name: 'Morpho',
+        job: 'Supported EVMs Ethereum, Base',
+        image: {
+          src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx8p0Y4K3kGzWNqrpt6YtLN73XqEA1ygA5NA&s',
+          alt: 'Sarah Hansen Image',
+        },
+      },
+      {
+        testimonial: `Compound’s DeFi protocol enables users to lend and borrow a variety of cryptocurrencies by participating in a decentralized market where reward rates are automatically determined based on supply and demand. This allows users to earn rewards on their crypto holdings or take out collateralized loans without the need for intermediaries, thereby fostering a more efficient and transparent financial ecosystem.`,
+        name: 'Compound',
+        job: 'Supported EVMs Ethereum, Base, Arbitrum,',
+        image: {
+          src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzhsPdG49Xq_qPQHsYNcsXoN-4NrGdoKgOuQ&s',
+          alt: 'Sarah Hansen Image',
+        },
+      },
+      {
+        testimonial: `Spark is a decentralized finance (DeFi) platform within the DAI ecosystem, created by the MakerDAO community. It allows users to deposit DAI to earn rewards, borrow DAI using various crypto assets as collateral, and access other financial services Spark connects multiple DeFi protocols to maximize the utility of DAI, offering features like lending, reward-bearing stablecoins, and direct liquidity for protocols. The platform aims to enhance financial opportunities and solve global coordination problems through an open-source financial system.`,
+        name: 'Spark',
+        job: 'Supported EVMs Ethereum, Gnosis Chain',
+        image: {
+          src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxgOEXYuZQUc8uwuN5MxvOeyAeWMM8sckhw&s',
+          alt: 'Sarah Hansen Image',
+        },
+      },
+      {
+        testimonial: `‍Fluid is a decentralized finance (DeFi) protocol designed to enhance capital efficiency and user experience in lending and borrowing. The lending protocol allows users to supply assets and receive rewards in kind while the Vault Protocol provides advanced borrowing capabilities with high loan-to-value (LTV) ratios and minimal liquidation penalties. The liquidity protocol serves as a foundational layer, consolidating liquidity across the ecosystem to enable seamless interaction between protocols without requiring each to attract liquidity independently.`,
+        name: 'Fluid',
+        job: 'Supported EVMs Ethereum, Arbitrum, Base',
+        image: {
+          src: 'https://zouvpsatdxeb2tch.public.blob.vercel-storage.com/asset-slug-logos/fluid.png',
+          alt: 'Sarah Hansen Image',
+        },
+      },
+      {
+        testimonial: `Kinetic is an overcollateralized lending platform built on the Flare blockchain, facilitating peer-to-peer borrowing with dynamic interest rates. The protocol requires borrowers to provide collateral exceeding their loan value to maintain system stability. Interest rates are transparently determined by real-time supply and demand, reflecting market conditions for lending and borrowing.`,
+        name: 'Kinetic',
+        job: 'Supported EVMs Flare',
+        image: {
+          src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVWdrSAkCg6yaAF6cecD64Cm2AhHNcsrWDA&s',
+          alt: 'Mark Wilkinson Image',
+        },
+      },
+    ]}
+    callToAction={{
+      target: '',
+      text: 'More DeFi...',
+      href: '/home/exchange',
+      icon: 'tabler:chevron-right',
+    }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+  
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Start exploring',
+        href: '/',
+      },
+    ]}
+    title="Dive into our template collection"
+    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
+    
+  />
+  <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "4ab7df9e-18f3-42ef-94c8-2fae15dbe5cd"
+  });
+</script>
+</Layout>
