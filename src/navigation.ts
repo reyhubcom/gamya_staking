@@ -94,7 +94,7 @@ export const headerData = {
         },
         {
           text: 'Binance',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+           href: getPermalink('/binance/reward'),
         },
         {
           text: 'Gnosis Chain',
