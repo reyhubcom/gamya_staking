@@ -97,8 +97,8 @@ export const headerData = {
            href: getPermalink('/binance/reward'),
         },
         {
-          text: 'Gnosis Chain',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          text: 'Solana',
+          href: getPermalink('/solana/reward'),
         },
         {
           text: 'Polygon',
