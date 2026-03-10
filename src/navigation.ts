@@ -102,7 +102,7 @@ export const headerData = {
         },
         {
           text: 'Polygon',
-          href: getPermalink('tutorials', 'category'),
+           href: getPermalink('/polygon/reward'),
         },
         {
           text: 'All Chains',
