@@ -106,7 +106,7 @@ export const headerData = {
         },
         {
           text: 'All Chains',
-          href: getPermalink('astro', 'tag'),
+           href: getPermalink('/all/chains'),
         },
       ],
     },
