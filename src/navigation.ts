@@ -112,7 +112,7 @@ export const headerData = {
     },
     {
       text: 'Wallet',
-      href: '/home/BUY',
+      href: '/home/wallet',
     },
   ],
   actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
