@@ -15,12 +15,10 @@ import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
 
 const appStoreImg = '~/assets/images/app-store.png';
-const appStoreDownloadLink = 'https://github.com/';
+const appStoreDownloadLink = 'https://github.com/arthelokyo/astrowind';
 
 const googlePlayImg = '~/assets/images/google-play.png';
-const googlePlayDownloadLink = 'https://github.com';
-
-
+const googlePlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
 
 const metadata = {
   title: 'Mobile App Homepage',
@@ -39,7 +37,7 @@ const metadata = {
       ]}
       actions={[
         {
-          text: 'EXCHANGE',
+          text: 'Download',
           href: '#download',
         },
       ]}
@@ -71,18 +69,12 @@ const metadata = {
     </Fragment>
 
     <div slot="actions" class="flex max-w-sm gap-4">
-      <Button variant="link" href="https://kilan.xyz">
-        <Image src={appStoreImg} alt="App Store Image" width={50} />
+      <Button variant="link" href={appStoreDownloadLink}>
+        <Image src={appStoreImg} alt="App Store Image" width={200} />
       </Button>
 
       <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="Google Play Image" width={50} />
-      </Button>
-      <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="App Store Image" width={50} />
-      </Button>
-      <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="Google Play Image" width={50} />
+        <Image src={googlePlayImg} alt="Google Play Image" width={200} />
       </Button>
     </div>
   </Hero2>
